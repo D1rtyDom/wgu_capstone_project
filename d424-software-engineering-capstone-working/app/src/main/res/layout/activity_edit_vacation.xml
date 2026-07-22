@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".UI.EditVacationActivity">
+
+    <TextView
+        android:id="@+id/edit_vacation_name_label"
+        android:labelFor="@id/edit_vacation_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_vacation_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:importantForAutofill="no"
+        android:maxLines="1"
+        android:maxLength="50"/>
+
+    <TextView
+        android:id="@+id/edit_vacation_description_label"
+        android:labelFor="@id/edit_vacation_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/description"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_vacation_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:textSize="16sp"
+        android:importantForAutofill="no"
+        android:maxLines="3"
+        android:maxLength="250" />
+
+    <Button
+        android:id="@+id/vacation_start_date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_date"
+        android:background="@color/blue"
+        android:textSize="16sp"
+        android:elevation="10dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/vacation_end_date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_date"
+        android:elevation="10dp"
+        android:background="@color/blue"
+        android:textSize="16sp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/edit_vacation_accommodations_label"
+        android:labelFor="@id/edit_vacation_accommodations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accommodations"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_vacation_accommodations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:importantForAutofill="no"
+        android:maxLength="50" />
+
+</TableLayout>

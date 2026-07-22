@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".UI.EditExcursionActivity">
+
+    <TextView
+        android:id="@+id/edit_excursion_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/excursion_name"
+        android:labelFor="@id/edit_excursion_name"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_excursion_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:importantForAutofill="no"
+        android:maxLines="1"
+        android:maxLength="50" />
+
+    <TextView
+        android:id="@+id/edit_excursion_description_label"
+        android:labelFor="@id/edit_vacation_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/description"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_excursion_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:textSize="16sp"
+        android:importantForAutofill="no"
+        android:maxLines="3"
+        android:maxLength="250" />
+
+    <Button
+        android:id="@+id/excursion_date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/blue"
+        android:text="@string/date"
+        android:textSize="16sp" />
+
+</TableLayout>

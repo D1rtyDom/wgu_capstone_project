@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "987384982890",
+    "project_id": "trip-nest-77cf6",
+    "storage_bucket": "trip-nest-77cf6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987384982890:android:9b3e31365caa91da994913",
+        "android_client_info": {
+          "package_name": "com.example.d308vacation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKm1aG3bVzTaw7oiLmhZv6Q3nE3XIU07E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

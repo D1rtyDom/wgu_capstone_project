@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/report"
+        android:title="@string/generate_report"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sample_data"
+        android:title="@string/create_sample_data"
+        app:showAsAction="never" />
+</menu>
